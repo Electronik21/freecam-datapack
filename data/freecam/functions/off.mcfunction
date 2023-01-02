@@ -16,6 +16,7 @@ execute if score @s fcPitch matches ..-1 run function freecam:tp/tp-pitch-negati
 execute unless score @s fcGameMode matches 1 at @s if block ~ ~-1 ~ air run tp @s ~ ~1 ~
 execute unless score @s fcGameMode matches 1 at @s if block ~ ~-1 ~ cave_air run tp @s ~ ~1 ~
 execute unless score @s fcGameMode matches 1 at @s if block ~ ~-1 ~ lava run tp @s ~ ~1 ~
+team leave @s
 execute if score @s fcGameMode matches 0 run gamemode survival @s
 execute if score @s fcGameMode matches 1 run gamemode creative @s
 execute if score @s fcGameMode matches 2 run gamemode adventure @s

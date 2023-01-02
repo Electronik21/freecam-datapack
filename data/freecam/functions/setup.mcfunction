@@ -1,3 +1,11 @@
+gamerule spectatorsGenerateChunks false
+team add freecam "Freecam"
+team modify freecam prefix "[Freecam] "
+team modify freecam friendlyFire false
+team modify freecam seeFriendlyInvisibles false
+team modify freecam nametagVisibility never
+team modify freecam deathMessageVisibility never
+team modify freecam collisionRule never
 scoreboard objectives add freecam trigger "Toggle Freecam"
 scoreboard objectives add fcDimension dummy
 scoreboard objectives add fcGameMode dummy
