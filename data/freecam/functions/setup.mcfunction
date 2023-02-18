@@ -1,8 +1,7 @@
 execute in overworld run gamerule spectatorsGenerateChunks false
 execute in the_nether run gamerule spectatorsGenerateChunks false
 execute in the_end run gamerule spectatorsGenerateChunks false
-team add freecam "Freecam"
-team modify freecam prefix "[Freecam] "
+team add freecam
 team modify freecam friendlyFire false
 team modify freecam seeFriendlyInvisibles false
 team modify freecam nametagVisibility never
