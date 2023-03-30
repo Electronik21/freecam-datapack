@@ -6,8 +6,9 @@ The datapack works between dimensions, and preserves your position, gamemode, an
 
 ### Limitations
 
-- Since scoreboards can only store integers, your coordinates will get rounded when you disable freecam. This can cause issues if you're not standing on a full block or standing on the edge of a block, although the pack tries to fix some of this by teleporting you 1 block higher if it detects that you would fall through the floor or into lava.
-- Since it puts you into spectator mode, you are effectively removed from the world until you disable it, meaning other players will see you disappear. Players can abuse this to avoid damage from mobs also.
+- Since scoreboards can only store integers, your coordinates will get rounded when you disable freecam. This can cause issues if you're not standing on a full block or standing on the edge of a block, although the pack tries to fix some of this by teleporting you 1 block higher if it detects that you are inside a block.
+- Since it puts you into spectator mode, you are effectively removed from the world until you disable it, meaning other players will see you disappear. Players can also abuse this to avoid damage from mobs.
+- Modded dimensions are not supported (yet).
 - Teleporting between dimensions on Bedrock Edition using GeyserMC seems to be broken and doesn't always teleport you to the correct location on disable, idk what's causing that but I'm not a bedrock developer
 
 *Thanks to [this reddit comment](https://www.reddit.com/r/MinecraftCommands/comments/ubo6yj/comment/i7dnrbk/?context=3) for solving some confusion I had with scoreboards!*
