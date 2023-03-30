@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"pack_format": 10,
-		"description": "Enables freecam in survival"
-	}
+  "pack": {
+    "pack_format": 12,
+    "description": "Enables freecam in survival"
+  }
 }
